@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Quote me</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+        <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
+
+        <!-- Font Awesome -->
+
+
+        <script src="https://kit.fontawesome.com/7e77d2cb70.js"></script>
+
+
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+    </head>
+    <body>
+        <div class='container'>
+            <div class="row no-margin">
+                <!--This is the tag menu -->
+                <div class="col s3 m3 l3  menu-bar z-depth-4 long-container" > 
+                    <div> Here we have the Logo </div>
+                    <br>
+
+
+                    <br>
+
+
+ 
+
+
+                    <div id='button-section' class='center-align'>
+
+
+
+                        <button id='terror-btn' class='category terror-btn' type="button"><i class="fas fa-skull"></i>&nbsp;&nbsp;<strong>Terror</strong></button>
+                        <br><br>
+                        <button id='romance-btn' class='category romance-btn' type="button"><i class="fas fa-heart"></i>&nbsp;&nbsp;<strong>Romance</strong></button>
+                        <br><br>
+                        <button id='scifi-btn' class='category scifi-btn' type="button"><i class="fas fa-rocket"></i>&nbsp;&nbsp;<strong>Science Fiction</strong></button>
+                        <br><br>
+                        <button id='fantasy-btn' class='category fantasy-btn' type="button"><i class="fas fa-dragon"></i>&nbsp;&nbsp;<strong>Fantasy</strong></button>
+                        <br><br>
+                        <button id='commedy-btn' class='category commedy-btn' type="button"><i class="fas fa-laugh-beam"></i>&nbsp;&nbsp;<strong>Commedy</strong></button>
+                        <br><br>
+                        <button id='mistery-btn' class='category mistery-btn' type="button"><i class="fas fa-user-secret"></i>&nbsp;&nbsp;<strong>Mystery</strong></button>
+                        <br><br>
+                        <button id='adventure-btn' class='category adventure-btn' type="button"><i class="fas fa-globe-americas"></i>&nbsp;&nbsp;<strong>Adventure</strong></button>
+                        <br><br>
+                        <button id='self-btn' class='category self-btn' type="button"><i class="fas fa-spa"></i>&nbsp;&nbsp;<strong>Self Improvement</strong></button>
+                        <br><br>
+                        <button id='other-btn' class='category other-btn' type="button"><i class="fas fa-tags"></i>&nbsp;&nbsp;<strong>Other</strong></button>
+                        <br><br>
+                        <button id='all-btn' class='category all-btn' type="button"><i class="fas fa-globe-americas"></i>&nbsp;&nbsp;<strong>All Quotes</strong></button>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+                <!--This is Quotes menu -->
+                <div class="center-align col s12 m9 l9 z-depth-4 main-container long-container">
+
+                    <!-- Add quote btn container -->
+                    <div class="row right align" id='new-quote-btn'>
+                        <a class="btn-floating btn-large waves-effect waves-light red"><i class="fas fa-plus"></i></a>
+                    </div><br><br><br><br>
+                    
+                    
+                    <div class="quote-main-container">
+                  
+                        <!-- Quote container
+                        
+                        <div id="terror-1" class="center-align z-depth-2 quote-container terror-container">
+
+                            <!-- head 
+                            <div class="row"> 
+
+                                <div class="valign-wrapper col s6 m6 l6">
+                                    <div class='category terror-cat'>
+                                        <i class="fas fa-skull"></i>&nbsp;&nbsp;Terror
+                                    </div>
+                                </div>
+
+                                <div class='col s6 m6 l6 right-align'>
+                                    <div style='float: right;'>
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- content 
+                            <p class='quote'>"Hola yo soy un quote"</p>
+                            <p class='author_and_title'><i>Author Name</i>  &mdash; <strong>Source</strong></p> 
+                        </div>
+
+
+                        <!-- Quote container 
+                        <div class="center-align z-depth-2 quote-container romance-container">
+
+                            <!-- head 
+                            <div class="row">  
+                                <div class="valign-wrapper col s6 m6 l6">
+                                    <div class='category romance-cat'>
+                                        <i class="fas fa-heart"></i>&nbsp;&nbsp;Romance
+                                    </div>
+                                </div>
+
+                                <div class='col s6 m6 l6 right-align'>
+                                    <div style='float: right;'>
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- content 
+                            <p class='quote'>"Yo tambien soy un quote y tengo mas renglones solo para ver si si se mueve el contenido para abajo o no"</p>
+                            <p class='author_and_title'><i>Author Name</i>  &mdash; <strong>Source</strong></p> 
+                        </div>-->
+
+                    </div>
+                </div>
+
+            </div>
+ 
+            <!-- New Quote div -->
+            <div  id="new-quote-section" class="new_quote_wrapper center-align displaynone">
+                <div class="new_quote_background"></div>
+                <div class="row">
+                    <div class="col s12 offset-m3 offset-l4 m6 l4 center-align z-depth-2 new_quote_form">
+                        <h5> Add a new quote </h5>
+                        <textarea id='add-quote' value='' rows="10" class="add-quote" placeholder="Add quote" maxlength="1000"></textarea>                      
+                        
+                        <input id='add-author' value='' type="text" class="add-author" placeholder="Author">
+                        <input id='add-source' value='' type="text" class="add-source" placeholder="Source">
+                        <h6>Please select a category</h6>
+
+                        <select id='select-box'  class="add-category displayblock">
+                            <option  value="other" class='category other-btn' selected>Other</option>
+                            <br>
+                            <option value="terror" class='category terror-btn'>Terror</option>
+                            <br>
+                            <option value="romance" class='category romance-btn'>Romance</option>
+                            <br>
+                            <option value="scifi" class='category scifi-btn'>Science fiction</option>
+                            <br>
+                            <option value="fantasy" class='category fantasy-btn'>Fantasy</option>
+                            <br>
+                            <option value="commedy" class='category commedy-btn'>Commedy</option>
+                            <br>
+                            <option value="mystery" class='category mistery-btn'>Mystery</option>
+                            <br>
+                            <option value="adventure" class='category adventure-btn'>Adventure</option>
+                            <br>
+                            <option value="self" class='category self-btn'>Self Improvement</option>
+                        </select>
+
+                        <br>
+
+                        <button id='save-btn' class="save-btn">Save</button>
+                      
+                        <button class="cancel-btn">cancel</button>
+                    </div>
+                </div>
+            </div>
+            
+          
+            
+               <!-- Edit Quote div -->
+            <div  id="edit-quote-section" class="new_quote_wrapper center-align displaynone">
+                <div class="new_quote_background"></div>
+                <div class="row">
+                    <div class="col s12 offset-m3 offset-l4 m6 l4 center-align z-depth-2 new_quote_form">
+                        <h5> Edit this quote </h5>
+                        <textarea id='edit-quote' value='' rows="10" class="add-quote" placeholder="Add quote" maxlength="1000"></textarea>                      
+                        
+                        <input id='edit-author' value='' type="text" class="add-author" placeholder="Author">
+                        <input id='edit-source' value='' type="text" class="edit-source" placeholder="Source">
+                        <h6>Please select a category</h6>
+
+                        <select id='edit-box'  class="add-category displayblock">
+                            <option value="other" class='category other-btn' selected>Other</option>
+                            <br>
+                            <option value="terror" class='category terror-btn'>Terror</option>
+                            <br>
+                            <option value="romance" class='category romance-btn'>Romance</option>
+                            <br>
+                            <option value="scifi" class='category scifi-btn'>Science fiction</option>
+                            <br>
+                            <option value="fantasy" class='category fantasy-btn'>Fantasy</option>
+                            <br>
+                            <option value="commedy" class='category commedy-btn'>Commedy</option>
+                            <br>
+                            <option value="mystery" class='category mistery-btn'>Mystery</option>
+                            <br>
+                            <option value="adventure" class='category adventure-btn'>Adventure</option>
+                            <br>
+                            <option value="self" class='category self-btn'>Self Improvement</option>
+                        </select>
+
+                        <br>
+
+                      
+                        <button id='edit-save-btn-app' class="save-btn">Save</button>
+                        <button id='cancel-edit' class="cancel-btn cancel-edit">cancel</button>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+
+
+        </div>
+    <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+    <script src="script-2.js"></script>
+    </body> 
+</html>

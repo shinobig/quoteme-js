@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(../fonts/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+h1{font-family: "Oswald";
+color: #334476;}
+h2, h3, h4, h5, h6{font-family: "Oswald";}
+
+p{font-family: "Poppins";}
+}
+a:hover{text-decoration: none;}
+
+body{background-color: #F5F5F5;
+ border-top-width: 5px;
+    border-top-color: #334476;
+     border-top-style: solid;}
+
+.maxwidth{max-width: 1100px;}
+
+
+.navbar.navbar-inverse{
+    
+    background-color: transparent;
+    border-width: 0px;
+    font-family: 'Oswald';
+    color: #334476;
+    font-size: 18px;
+}
+ul.nav li a{
+color: #7993C8 !important;}
+ul.nav li a:hover{
+color: #334476 !important;}
+
+.navbar-toggle {
+  width: 42px;
+  float: none;
+  margin-right: 0;
+    text-align: center;
+    border-width: 0px;
+   
+}
+.navbar-toggle{background-color: #7993C8;}
+.navbar-collapse{border-width: 0px;}
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #E2E2E2;
+}
+
+.footer_background{
+    background-image: url(../img/starry_night_over.jpg);
+    width: 100%;
+}
+
+.footer_cont{
+    padding-top: 20px;
+    color: white;
+font-family:'Poppins';
+text-align: center;
+ text-shadow: 2px 2px 4px #000000;}
+
+.font_footer{font-family: "Oswald";
+}
+
+a.icon_link{color: white;}
+a.icon_link:hover{color: #CCC;}
+
+.imgBoxMig {width: 24px; height: 24px;  
+    background: url(../img/michelangelo-icon.jpg) no-repeat;
+    display:inline-block; 
+    margin-right: 5px; 
+    box-shadow: 2px 2px 4px #000000;}
+
+.imgBoxMig:hover { width: 24px; height: 24px; 
+    background: url(../img/michelangelo-icon-hover.jpg) no-repeat;display:inline-block;margin-right: 5px; box-shadow: 2px 2px 4px #000000;} 
+
+.imgBoxGau {width: 24px; height: 24px;  
+    background: url(../img/gauguin-icon.jpg) no-repeat; display:inline-block;margin-right: 5px;box-shadow: 2px 2px 4px #000000;}
+
+.imgBoxGau:hover { width: 24px; height: 24px; 
+    background: url(../img/gauguin-icon-hover.jpg) no-repeat;display:inline-block;margin-right: 5px; box-shadow: 2px 2px 4px #000000;} 
+
+.imgBoxCar {width: 24px; height: 24px;  
+    background: url(../img/caravaggio-icon.jpg) no-repeat;display:inline-block; margin-right: 5px;box-shadow: 2px 2px 4px #000000;}
+
+.imgBoxCar:hover { width: 24px; height: 24px; 
+    background: url(../img/caravaggio-icon-hover.jpg) no-repeat;display:inline-block;margin-right: 5px; box-shadow: 2px 2px 4px #000000;} 
+
+.imgBoxMon {width: 24px; height: 24px;  
+    background: url(../img/monet-icon.jpg) no-repeat;display:inline-block;margin-right: 5px; box-shadow: 2px 2px 4px #000000;}
+
+.imgBoxMon:hover { width: 24px; height: 24px; 
+    background: url(../img/monet-icon-hover.jpg) no-repeat;display:inline-block; margin-right: 5px;box-shadow: 2px 2px 4px #000000;} 
+
+.imgBoxOther {width: 24px; height: 24px;  
+    background: url(../img/iotherartists.jpg) no-repeat;display:inline-block; box-shadow: 2px 2px 4px #000000;}
+
+.imgBoxOther:hover { width: 24px; height: 24px; 
+    background: url(../img/iotherartists-hover.jpg) no-repeat;display:inline-block; box-shadow: 2px 2px 4px #000000;} 
+
+
+.lang_icon{background: url(../img/lang-icon.png) no-repeat;width:30px; height: 27px; display: inline-block;}
+.lang_icon:hover{background: url(../img/lang-icon-hover.png)no-repeat;width:30px; height: 27px; display: inline-block;}
+
+.border_intro{
+ border-top-width: 2px;
+    border-top-color: #7993C8;
+     border-top-style: solid;
+text-align: center;
+}
+.navbar{margin-bottom: 0px;}
+
+.community_square{background-color: #DB3F14;
+height: 250px;}
+
+.news_square{background-color: #7993C8;
+height: 250px;}
+
+.featured_print_square{background-color: #7993C8;
+height: 250px;}
+
+.readmore{color: white;
+    text-align: center;
+    top: 200px !important;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    
+}
+
+.readmore:hover{color: #CCC;
+text-decoration: none;}
+
+.squarecontent{color:white;
+    text-align:center;
+    font-size:11px;
+    padding-left:30px;
+    padding-right:30px;}
+
+
+/* Starry night */
+.starrynightsquare_parent {
+  width: 100%;
+    height: 100%;
+ overflow: hidden;
+}
+
+.starrynightsquare_child {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("../img/starry_square.jpg");
+  background-position: center;
+  background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.starrynightsquare_parent:hover .starrynightsquare_child,
+.starrynightsquare_parent:focus .starrynightsquare_child {
+  transform: scale(1.2);
+}
+
+/* Sunflower */
+
+.sunflower_parent {
+  width: 100%;
+    height: 100%;
+ overflow: hidden;
+}
+
+.sunflower_child {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("../img/sunflower_square.jpg");
+  background-position: center;
+  background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.sunflower_parent:hover .sunflower_child,
+.sunflower_parent:focus .sunflower_child {
+  transform: scale(1.2);
+}
+
+
+/* Potato */
+.potato_parent {
+  width: 100%;
+    height: 100%;
+ overflow: hidden;
+}
+
+.potato_child {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("../img/potato_square.jpg");
+  background-position: center;
+  background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.potato_parent:hover .potato_child,
+.potato_parent:focus .potato_child {
+  transform: scale(1.2);
+}
+
+
+/* Print */
+.print_parent {
+  width: 100%;
+    height: 100%;
+ overflow: hidden;
+}
+
+.print_child {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("../img/printing_square.jpg");
+  background-position: center;
+  background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.print_parent:hover .print_child,
+.print_parent:focus .print_child {
+  transform: scale(1.2);
+}
+
+.starry_paint{ height:200px;
+    width: 500px;
+    background-image: url('../img/starry_paint.jpg');}
+
+.starry_paint:hover {
+    background-image: url('../img/starry_pain_hover.jpg');
+}
+
+.sunflower_paint{ height:200px;
+    width: 500px;
+    background-image: url('../img/paint_sun.jpg');}
+
+.sunflower_paint:hover {
+    background-image: url('../img/paint_sun_hover.jpg');
+}
+.potato_paint{ height:200px;
+    width: 500px;
+    background-image: url('../img/potato_paint.jpg');}
+
+.potato_paint:hover {
+    background-image: url('../img/potato_paint_hover.jpg');
+}
+
+
+<!-- ZOOM EFFECT -->

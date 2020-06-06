@@ -1,0 +1,8 @@
+color pick
+
+#DDCFCB
+#B18F83
+#384538
+#99A680
+#C8C7C7
+#E0E1E3

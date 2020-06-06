@@ -1,0 +1,500 @@
+body{
+    background-color: #99A680;
+}
+
+/* Background and containers */
+
+.no-margin{
+    margin-bottom: 0px !important;
+}
+
+.long-container{
+    min-height: 100vh !important;
+}
+
+.menu-bar{
+    background-color: #F8F2EF;
+}
+
+
+.main-container{
+    background-color:#fafafa;
+    padding: 5% 5% 5% 5% !important; 
+}
+
+
+/* Quotes */
+
+.quote-container{
+
+    background-color: white;
+    padding: 2% 7% 1% 7%;
+
+    margin-bottom: 15px;
+}
+
+.medium-size{
+    width: 50%;
+}
+
+.category{   
+    font-family: 'Open Sans';
+    font-size: 12px;
+    padding: 4px 10px 4px 10px;
+    border-radius: 15px;
+
+
+}
+
+.quote{
+    font-family: 'Cormorant Garamond';
+    font-size: 19px;
+}
+
+.author_and_title{
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+
+.terror-container{
+    background-color: #ede7f6;
+    color: #311b92;
+}
+.terror-cat{
+    background-color: #d1c4e9;
+
+}
+
+.terror-btn{
+    color: #311b92; 
+    border: 1px solid #311b92;
+    background-color: #d1c4e9;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+    
+    
+}
+
+.terror-btn:hover{
+    color: white; 
+    border: 1px solid #311b92;
+    background-color: #311b92;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+.terror-btn:focus{
+    color: white; 
+    border: 1px solid #311b92;
+    background-color: #311b92;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+
+.romance-container{
+    background-color: #ffebee;
+    color: #b71c1c;
+}
+
+.romance-cat{
+    background-color: #ffcdd2;
+}
+.romance-btn{
+    color: #b71c1c; 
+    border: 1px solid #b71c1c;
+    background-color: #ffcdd2;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.romance-btn:hover{
+    color: white; 
+    border: 1px solid #b71c1c;
+    background-color: #b71c1c;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+.romance-btn:focus{
+    color: white; 
+    border: 1px solid #b71c1c;
+    background-color: #b71c1c;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.fantasy-container{
+    background-color: #e8f5e9;
+    color: #1b5e20;
+}
+
+.fantasy-cat{
+    background-color: #c8e6c9;
+}
+.fantasy-btn{
+    color: #1b5e20; 
+    border: 1px solid #1b5e20;
+    background-color: #c8e6c9;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.fantasy-btn:hover{
+    color: white; 
+    border: 1px solid #1b5e20;
+    background-color: #1b5e20;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+.fantasy-btn:focus{
+    color: white; 
+    border: 1px solid #1b5e20;
+    background-color: #1b5e20;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.scifi-container{
+    background-color: #f3e5f5;
+    color: #7b1fa2;
+}
+
+.scifi-cat{
+    background-color: #e1bee7;
+}
+.scifi-btn{
+    color: #7b1fa2; 
+    border: 1px solid #7b1fa2;
+    background-color: #e1bee7;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.scifi-btn:hover{
+    color: white; 
+    border: 1px solid #7b1fa2;
+    background-color: #7b1fa2;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+.scifi-btn:focus{
+    color: white; 
+    border: 1px solid #7b1fa2;
+    background-color: #7b1fa2;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.commedy-container{
+    background-color: #ffecb3;
+    color: black;
+}
+
+.commedy-cat{
+    background-color: #ffd54f;
+}
+.commedy-btn{
+    color: back; 
+    border: 1px solid #ff6f00 ;
+    background-color: #ffd54f;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.commedy-btn:hover{
+    color: white; 
+    border: 1px solid #ff6f00 ;
+    background-color: #ff6f00 ;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+.commedy-btn:focus{
+    color: white; 
+    border: 1px solid #ff6f00 ;
+    background-color: #ff6f00 ;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.mistery-container{
+    background-color: #cfd8dc;
+    color: #263238;
+}
+
+.mistery-cat{
+    background-color: #b0bec5;
+}
+.mistery-btn{
+    color: #263238 ;
+    border: 1px solid #263238 ;
+    background-color: #b0bec5;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.mistery-btn:hover{
+    color: white; 
+    border: 1px solid #263238 ;
+    background-color: #263238 ;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+.mistery-btn:focus{
+    color: white; 
+    border: 1px solid #263238 ;
+    background-color: #263238 ;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.adventure-container{
+    background-color: #e0f2f1;
+    color: black;
+}
+
+.adventure-cat{
+    background-color: #80cbc4;
+}
+.adventure-btn{
+    color: back; 
+    border: 1px solid #009688 ;
+    background-color: #80cbc4;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.adventure-btn:hover{
+    color: white; 
+    border: 1px solid #009688 ;
+    background-color: #009688 ;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+.adventure-btn:focus{
+    color: white; 
+    border: 1px solid #009688 ;
+    background-color: #009688 ;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.self-container{
+    background-color: #ffccbc;
+    color: black;
+}
+
+.self-cat{
+    background-color: #ffab91;
+}
+.self-btn{
+    color: back; 
+    border: 1px solid #ff5722 ;
+    background-color: #ffab91;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.self-btn:hover{
+    color: white; 
+    border: 1px solid #ff5722 ;
+    background-color: #ff5722 ;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+.self-btn:focus{
+    color: white; 
+    border: 1px solid #ff5722 ;
+    background-color: #ff5722 ;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.other-container{
+    background-color: #d7ccc8;
+    color: #3e2723;
+}
+
+.other-cat{
+    background-color: #bcaaa4;
+}
+.other-btn{
+    color: #3e2723 ;
+    border: 1px solid #3e2723;
+    background-color: #bcaaa4;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.other-btn:hover{
+    color: white; 
+    border: 1px solid #3e2723;
+    background-color: #3e2723;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+.other-btn:focus{
+    color: white; 
+    border: 1px solid #3e2723;
+    background-color: #3e2723;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.all-btn{
+    color: #0d47a1;
+    border: 1px solid #0d47a1;
+    background-color: #90caf9;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.all-btn:hover{
+    color: white; 
+    border: 1px solid #0d47a1;
+    background-color: #0d47a1;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+.all-btn:focus{
+    color: white; 
+    border: 1px solid #0d47a1;
+    background-color: #0d47a1;
+        min-width: 170px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;
+}
+
+.new_quote_wrapper{
+    width: 100%;
+}
+
+.new_quote_form{
+    top: 10vh;
+    background-color: white;
+    padding: 20px 20px 20px 20px !important;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 10vh;
+}
+
+.new_quote_background{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.5;
+
+}
+
+.displaynone{
+    display: none;
+    transition: display 1s;
+}
+
+.displayblock{
+    display: block;
+    transition: display 1s;
+}
+
+.cancel-btn{
+    color: #3e2723 ;
+    border: 1px solid #3e2723;
+    background-color: #bcaaa4;
+    border-radius: 20px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px;  
+}
+.save-btn{
+    color: back; 
+    border: 1px solid #009688 ;
+    background-color: #80cbc4;
+    border-radius: 20px;
+    font-size: 13px;
+    transition: 0.3s;
+    padding:5px 20px 5px 20px; 
+}
+
+.add-category{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.edit-btn:hover{
+    cursor: pointer;
+}
+
+.delete-btn:hover{
+    cursor: pointer;
+}
+
+.clear-background{
+    background-color: #fafafa;
+    padding-top: 70px;
+}
+
+.nav-background{
+    background-color: #F8F2EF;
+    
+}
